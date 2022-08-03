@@ -3,9 +3,6 @@
 
 sudo apt update
 
-sudo apt install git
-
-
 
 echo "Criando usuarios"
 useradd novo_usuario -c "Novo Usuario" -s /bin/bash -m -p $(openssl passwd -crypt  Senha123)
